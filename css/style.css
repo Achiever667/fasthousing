@@ -3,9 +3,13 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background: #defade;
+}
 
 header{
     background: #dcfffbba;
+    box-shadow: 0.4px 4px 4px 0.4px #91e191;
 
 }
 .logo img{
@@ -56,7 +60,7 @@ nav ul li a:hover{
     /* margin-left: auto; */
 }
 .logins ul li:hover{
-    background: #ffaa97;
+    background: #ff623a;
 }
 .top{
     display: flex;
@@ -69,7 +73,7 @@ nav ul li a:hover{
      background-size: cover;
     /* text-align: center; */
     padding: 50px;
-    opacity: 0.9;
+    opacity: 0.99;
 }
 .top .left{
     width: 50%;
@@ -232,7 +236,7 @@ nav ul li a:hover{
       text-align: center;
       color: #f8b21a;
       font-weight: 600;
-      font-size:3 40px;
+      font-size:40px;
       margin: 40px;
   }
   .client{
